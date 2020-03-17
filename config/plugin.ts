@@ -1,18 +1,14 @@
-import { EggPlugin } from 'egg';
+import { EggPlugin } from 'egg'
 
 const plugin: EggPlugin = {
   reactssr: {
     enable: true,
     package: 'egg-view-react-ssr'
   },
-  // nunjucks: {
-  //   enable: true,
-  //   package: 'egg-view-nunjucks',
-  // },
   regax: {
-    enable: false,
+    enable: true,
     package: '@regax/egg-regax',
   }
-};
+}
 
-export default plugin;
+export default plugin

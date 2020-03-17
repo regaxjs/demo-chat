@@ -5,6 +5,7 @@
 - [x] React 
 - [x] Egg
 - [x] Regax
+- [x] WebSocket
 
 ### Development
 

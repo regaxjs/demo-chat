@@ -20,12 +20,14 @@
     "autod": "autod",
     "build": "easy build",
     "lint": "tslint --project . -c tslint.json",
-    "fix": "tslint --fix --project . -c tslint.json",
+    "lint:fix": "tslint --fix --project . -c tslint.json",
     "clean": "ets clean"
   },
   "dependencies": {
+    "@regax/client-websocket": "^0.1.16",
     "@regax/egg-regax": "^0.1.27",
     "@regax/server": "^0.1.31",
+    "crc": "^3.8.0",
     "egg": "^2.6.1",
     "egg-scripts": "^2.6.0",
     "egg-view-react-ssr": "^3.0.0",

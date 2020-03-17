@@ -1,10 +1,10 @@
-import { Controller } from 'egg';
+import { Controller } from 'egg'
 
 export default class HomeController extends Controller {
   public async index() {
-    const { ctx } = this;
+    const { ctx } = this
     await ctx.renderClient('home.js', {
-      title: 'Regax Chat Demo',
-    });
+      websocketUrl: 'ws://127.0.0.1:8089'
+    })
   }
 }

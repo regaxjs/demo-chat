@@ -15,6 +15,7 @@ import 'egg-static';
 import 'egg-jsonp';
 import 'egg-view';
 import 'egg-view-react-ssr';
+import '@regax/egg-regax';
 import 'egg-webpack';
 import 'egg-webpack-react';
 import { EggPluginItem } from 'egg';

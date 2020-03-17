@@ -5,7 +5,13 @@
     ],
     "jsRules": {},
     "rules": {
-      "member-access": false, 
+      "semicolon": [
+        true,
+        "never",
+        "ignore-interfaces"
+      ],
+      "no-var-requires": false,
+      "member-access": false,
       "ordered-imports": false,
       "trailing-comma": false,
       "quotemark": [true, "single", "jsx-double"],
