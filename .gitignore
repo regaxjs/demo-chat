@@ -20,3 +20,4 @@ test/**/*.map
 config/**/*.map
 config/manifest.json
 dist/
+public/

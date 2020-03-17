@@ -1,6 +1,6 @@
 {
   "name": "demo-chat",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "private": true,
   "egg": {
@@ -67,7 +67,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/regaxjs/demo-chat"
   },
   "eslintIgnore": [
     "coverage"
