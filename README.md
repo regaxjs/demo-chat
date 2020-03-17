@@ -1,6 +1,10 @@
 # Regax-Chat with Egg
 
-## QuickStart
+- [x] Typescript
+- [x] Webpack
+- [x] React 
+- [x] Egg
+- [x] Regax
 
 ### Development
 

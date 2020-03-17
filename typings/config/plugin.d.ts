@@ -14,7 +14,9 @@ import 'egg-schedule';
 import 'egg-static';
 import 'egg-jsonp';
 import 'egg-view';
-import '@regax/egg-regax';
+import 'egg-view-react-ssr';
+import 'egg-webpack';
+import 'egg-webpack-react';
 import { EggPluginItem } from 'egg';
 declare module 'egg' {
   interface EggPlugin {
@@ -30,6 +32,9 @@ declare module 'egg' {
     static?: EggPluginItem;
     jsonp?: EggPluginItem;
     view?: EggPluginItem;
+    reactssr?: EggPluginItem;
     regax?: EggPluginItem;
+    webpack?: EggPluginItem;
+    webpackreact?: EggPluginItem;
   }
 }
